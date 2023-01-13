@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="ja">
+    <!-- このページは日本語で書かれているよ -->
+  <head>
+      <meta charset="UTF-8">
+          <!-- 文字コードのutf-8を使うよ -->
+      <title>todo-app</title>
+      <link rel="stylesheet" href="index.css">
+          <!-- cssと連携 -->
+          <!-- stylesheetって何？ -->
+  </head>
+
+  <body>
+    <h1>todo list</h1>
+    <form>
+      <input class="inputTask" type="text" />
+        <!-- 入力するためのフィールドを作る -->
+      <button class="addTaskButton" type="button">Add Task</button>
+    </form>
+
+    <button class="deleteTaskButton" type="button">Delete All Task</button>
+
+    <div id="table">
+      <h2>tasks</h2>
+      <ul class="taskList">
+        <!-- ここにtaskListの内容が表示される-->
+      </ul>
+      <!-- ul:unordered list（順序がないリスト） -->
+    </div>
+    <script src="main.js"></script>
+    <!-- JSと連携 -->
+  </body>
+</html>
